@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿USE [TestDB]
+=======
+USE [TestDB]
+>>>>>>> bfed7143e30ab10383e6d2d57a906a8ef9f405c4
 GO
 /****** Object:  Table [dbo].[steelrain]    Script Date: 23/04/2024 11:49:54 AM ******/
 SET ANSI_NULLS ON
