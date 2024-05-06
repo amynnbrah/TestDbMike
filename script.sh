@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo -e "\nhello test bash\n"
-> file_utf8_modified.txt
+truncate -s 0 file_utf8_modified.txt
 echo "grep lines containing 'Mike' from main text file:"
 grep -in "Mike" file_utf8.txt
 awk '{gsub(/Mike/, "TestDB"); print}' file_utf8.txt >> file_utf8_modified.txt
